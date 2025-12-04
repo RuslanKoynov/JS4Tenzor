@@ -19,7 +19,7 @@ getUserData(function(user) {
 
 ### Создание promise:
 ```javascript
-let myPromise = new Promise(function (resolve, reject) => {
+let myPromise = new Promise(function (resolve, reject) {
     // Асинхронная операция (например, запрос к API)
     setTimeout(() => {
         let success = Math.random() > 0.3; // Имитация успеха/ошибки
@@ -129,4 +129,5 @@ fetchUserData(); // Вызов async-функции вернет Промис.
 3. Всегда обрабатывайте возможные ошибки с помощью .catch() или try...catch.
 
 # Практическое упражнение:
+
 Выполни 3 и 4 [упражнения](practice.md)
